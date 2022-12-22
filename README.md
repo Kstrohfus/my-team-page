@@ -6,7 +6,7 @@
       Challenge
     </a>
    <br>
-   ![crew-pre](https://user-images.githubusercontent.com/111642391/209237668-ed1065fb-350b-40fe-858b-b2afcd9b2473.png)
+   <img src= "https://user-images.githubusercontent.com/111642391/209237668-ed1065fb-350b-40fe-858b-b2afcd9b2473.png">
 
    <br>
    
