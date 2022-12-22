@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.heading-container {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (400px);
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+    font-weight: 700;
+    grid-row: 1 / 1;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    grid-row: 1/1;
+    width: 400px;
+}
+
+p.who-we-are-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.who-we-are {
+    width: 400px;
+    grid-row: 1 / -1;
+}
+
+.photos-container {
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (400px 400px);
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+.top-photos {
+    grid-row: 1/2;
+    margin-right: 0;
+}
+
+.bottom-photos {
+    grid-row: 2/2;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.saba {
+    margin-top: 100px;
+}
+
+.griff {
+    margin-top: 100px;
+}
+
+span.employee-position.saba {
+    margin-top: 100px;
+}
+
+span.employee-position.griff {
+    margin-top: 100px;
+}
+
+figcaption.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.employee-position {
+    font-family: "PT Serif", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    vertical-align: top;
+    margin-left: 0;
+}
+
+@media (max-width: 480px) {
+    .photos-container {
+        display: grid;
+        height: 300px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: (auto);
+    }
+
+    img {
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0;
+    }
+    figcaption.name {
+        float: left;
+    }
+
+    span.employee-position {
+        position: absolute;
+        height: 300px;
+    }
+}
