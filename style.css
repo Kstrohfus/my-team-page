@@ -99,7 +99,23 @@ figcaption.name {
     margin-left: 0;
 }
 
+/* Media */
+
 @media (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    p.who-we-are-text {
+        width: 300px;
+    }
+
+    .who-we-are {
+        width: 300px;
+        grid-row: 1 / -1;
+    }
+
     .photos-container {
         display: grid;
         height: 300px;
@@ -119,5 +135,6 @@ figcaption.name {
     span.employee-position {
         position: absolute;
         height: 300px;
+        margin-right: 5px;
     }
 }
